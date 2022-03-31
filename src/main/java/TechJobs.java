@@ -135,7 +135,7 @@ public class TechJobs {
                 System.out.println("\n*****\n");
             }
         }else{
-            System.out.println("No Results Found");
+            System.out.println("No Results");
         }
 
         //System.out.println("printJobs is not implemented yet")
