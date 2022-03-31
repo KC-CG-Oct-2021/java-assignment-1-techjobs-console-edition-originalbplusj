@@ -32,8 +32,6 @@ public class JobData {
 
         ArrayList<String> values = new ArrayList<>();
 
-
-
         for (HashMap<String, String> row : allJobs) {
 
             String aValue = row.get(field);
@@ -108,7 +106,7 @@ public class JobData {
 
         // TODO - implement this method
         for(HashMap<String, String> row : allJobs) {
-
+            //Iterates through each row by creating iterator variable "job".
             for(Map.Entry<String, String> job : row.entrySet()){
                 if(job.getValue().toLowerCase().contains(value.toLowerCase()) && !jobs.contains(row)){
                     jobs.add(row);

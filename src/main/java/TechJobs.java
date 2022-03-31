@@ -122,7 +122,9 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
 
 
-        //Print format
+        //Formats printing for results
+        //Provides message to user if no results are found
+
         if(!someJobs.isEmpty()){
             for (HashMap<String, String> item : someJobs
             ) {
